@@ -13,6 +13,6 @@ namespace StreamCasa.Entities
         public string Name { get; set; }
         public DateTime Release { get; set; }
         public List<Favorites> Favorites { get; set; }
-        public List<Users> Users { get; set; }
+        
     }
 }

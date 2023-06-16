@@ -8,5 +8,6 @@ namespace StreamCasa.Entities.Abstractions.Repositories
 {
     public interface IVideosRepository:IBaseRepository<Videos>
     {
+        Task<List<Videos>> GetAll();
     }
 }
