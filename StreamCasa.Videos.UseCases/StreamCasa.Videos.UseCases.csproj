@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StreamCasa.Builders\StreamCasa.Builders.csproj" />
+    <ProjectReference Include="..\StreamCasa.Entities\StreamCasa.Entities.csproj" />
+    <ProjectReference Include="..\StreamCasa.Interactors.Abstractions\StreamCasa.Interactors.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

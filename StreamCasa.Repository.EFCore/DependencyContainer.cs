@@ -22,6 +22,11 @@ namespace StreamCasa.Repository.EFCore
                 });
             });
             services.AddScoped<IVideosRepository, VideosRepository>();
+            services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddScoped<IUsersVideosRepository, UsersVideosRepository>();
+            services.AddScoped<IProfilesRepository, ProfilesRepository>();
+            services.AddScoped<IFavoritesRepository, FavoritesRepository>();
+            services.AddScoped<ICoursesRepository, CoursesRepository>();
             return services;
         }
     }

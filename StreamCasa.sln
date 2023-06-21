@@ -15,11 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks and Drivers", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCasa.Abstractions", "StreamCasa.Abstractions\StreamCasa.Abstractions.csproj", "{518B5D5B-C83E-4BFD-9F68-1B237DAEE6CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Repository.EFCore", "StreamCasa.Repository.EFCore\StreamCasa.Repository.EFCore.csproj", "{758249D8-91AD-427C-9CA5-908DFA2E5B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCasa.Repository.EFCore", "StreamCasa.Repository.EFCore\StreamCasa.Repository.EFCore.csproj", "{758249D8-91AD-427C-9CA5-908DFA2E5B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Repository.Dapper", "StreamCasa.Repository.Dapper\StreamCasa.Repository.Dapper.csproj", "{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCasa.Repository.Dapper", "StreamCasa.Repository.Dapper\StreamCasa.Repository.Dapper.csproj", "{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{8B999E32-3D0F-49E5-84D2-F2CBD76AB9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Interactors.Abstractions", "StreamCasa.Interactors.Abstractions\StreamCasa.Interactors.Abstractions.csproj", "{54297C93-A78D-4B3D-B54F-D0500F891C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Videos.UseCases", "StreamCasa.Videos.UseCases\StreamCasa.Videos.UseCases.csproj", "{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Builders", "StreamCasa.Builders\StreamCasa.Builders.csproj", "{A0D2CC36-7574-4326-AB55-06A93D88A3FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", "{1DD9FE03-445A-41A2-BAA1-00F6DBE0569E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Presenters", "StreamCasa.Presenters\StreamCasa.Presenters.csproj", "{282A9ACC-D279-45DB-B27B-8D65DD3A6952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +53,22 @@ Global
 		{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54297C93-A78D-4B3D-B54F-D0500F891C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54297C93-A78D-4B3D-B54F-D0500F891C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54297C93-A78D-4B3D-B54F-D0500F891C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54297C93-A78D-4B3D-B54F-D0500F891C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D2CC36-7574-4326-AB55-06A93D88A3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D2CC36-7574-4326-AB55-06A93D88A3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D2CC36-7574-4326-AB55-06A93D88A3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D2CC36-7574-4326-AB55-06A93D88A3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282A9ACC-D279-45DB-B27B-8D65DD3A6952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282A9ACC-D279-45DB-B27B-8D65DD3A6952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282A9ACC-D279-45DB-B27B-8D65DD3A6952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282A9ACC-D279-45DB-B27B-8D65DD3A6952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +79,11 @@ Global
 		{758249D8-91AD-427C-9CA5-908DFA2E5B3D} = {8B999E32-3D0F-49E5-84D2-F2CBD76AB9A2}
 		{F8BCEB21-B6C5-4E2E-BA51-69690304CC1B} = {8B999E32-3D0F-49E5-84D2-F2CBD76AB9A2}
 		{8B999E32-3D0F-49E5-84D2-F2CBD76AB9A2} = {137CF481-DC89-4783-B2E6-FE0635FBE706}
+		{54297C93-A78D-4B3D-B54F-D0500F891C41} = {48D45970-09EF-49C7-8C1D-D0CD74B82A7E}
+		{FCC66EED-A34A-45D8-9A7B-1DE39E49BF4F} = {48D45970-09EF-49C7-8C1D-D0CD74B82A7E}
+		{A0D2CC36-7574-4326-AB55-06A93D88A3FE} = {48D45970-09EF-49C7-8C1D-D0CD74B82A7E}
+		{1DD9FE03-445A-41A2-BAA1-00F6DBE0569E} = {137CF481-DC89-4783-B2E6-FE0635FBE706}
+		{282A9ACC-D279-45DB-B27B-8D65DD3A6952} = {1DD9FE03-445A-41A2-BAA1-00F6DBE0569E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {055BBE61-BF29-44A6-8571-C78BDDD99427}

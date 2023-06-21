@@ -8,6 +8,6 @@ namespace StreamCasa.Entities.Abstractions.Repositories
 {
     public interface IUsersRepository:IBaseRepository<Users>
     {
-        Task<Users> GetByUsermaneAndPassword(Users user);
+        Task<Users> GetByUsermane(string username);
     }
 }
